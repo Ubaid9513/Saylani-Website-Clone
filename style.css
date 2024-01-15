@@ -32,6 +32,9 @@
     text-decoration: none;
     color: #000;
 }
+.nav ul li a:hover{
+    color:rgb(139, 210, 32) ;
+}
             /* STYLING HR */
 .hr{
     color: #525050;
@@ -71,6 +74,11 @@
     border:1px solid #000 ;
     border-radius: 5px;
     cursor: pointer;
+}
+.text button:hover{
+    border:2px solid rgb(139, 210, 32);
+    color: rgb(139, 210, 32);
+    font-size: 15px;
 }
             /* IMAGE */
 .image img{
